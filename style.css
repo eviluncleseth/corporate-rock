@@ -1,0 +1,458 @@
+body {
+    background-color: #3B0A0A;
+    }
+
+.navbar {
+    background-color: #3B0A0A;
+    height: 100px;
+    display: flex;
+    }
+
+.navbar_container {
+     display: flex;
+  justify-content: space-between;
+  height: 100px;
+  z-index: 1;
+  width: 100%;
+  max-width: 1600px;
+  margin: 0, auto;
+  padding: 0, 50px;
+    }
+
+.navbar__links {
+  color: #FBF3E4;
+font-family:'Courier New', Courier, monospace;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  padding: 0 1rem;
+  margin: 0 0.3rem;
+  height: 100%;
+}
+
+.navbar__links:hover {
+  color: #FBF3E4;
+  font-family:'Courier New', Courier, monospace;
+  font-weight: bolder;
+  font-size: 120%;
+}
+
+.navbar__item {
+  height: 80px;
+}
+
+.navbar__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  width: 100%;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  padding: 10px 20px;
+  height: 80px;
+  width: 100%;
+  outline: none;
+  border-radius: 5px;
+  border: 4px solid var(--clr-dark);
+  border-color: var(--clr-dark);
+  background-color: var(--clr-light);
+  color: var(--clr-dark);
+}
+
+.button:hover {
+  transition: all 3 ease-in;
+  background: var(--clr-yellow);
+  border: 4px solid var(--clr-dark);
+  color: var(--clr-dark);
+}
+
+#navbar__logo {
+  display: flex;
+  align-items: right;
+  cursor: pointer;
+  text-decoration: dashed;
+  font-size: 0rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  margin: 2px;
+  color: var(--clr-light);
+  }
+
+  .fa-gem {
+  margin-right: 0.5rem;
+}
+
+.navbar__menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  text-align: center;
+}
+
+.Header_img {
+    align-items: start;
+    height: 80px;
+    }
+
+.hero_tall {
+    color: #FBF3E4;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 800%;
+    margin-bottom: 30px;
+    }
+
+.hero_small {
+    color: #FBF3E4;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 150%;
+    font-weight: lighter;
+    }
+
+.band_img {
+    height: 450px;
+    float: right;
+   }
+
+.main__content {
+    height: 400px;
+}
+
+.main {
+    height:fit-content;
+    width: flex;
+    }
+
+.description {
+    height: 600px;
+    width: flex;
+    background-color: #FBF3E4;
+    margin-top: 50px;
+    margin-color:#3B0A0A;
+    }
+
+.description_textbox {
+    width: 800px; 
+    align-self: center;
+    margin-left: 330px;
+    }
+
+.head_description {
+    color: #3B0A0A;
+font-family:'Courier New', Courier, monospace;
+  font-size: 800%;
+  margin-top: 50px;
+  text-align: center;
+    }
+
+.text_description {
+    color: #3B0A0A;
+font-family:'Courier New', Courier, monospace;
+  font-size: 150%;
+  font-weight: lighter;
+  text-align: center;
+}
+
+.map_box {
+    align: top;
+   margin-left: 250px;
+    }
+
+.buchen_text {
+    color: #FBF3E4;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 150%;
+    font-weight: lighter;
+    text-align: center;
+      display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  padding: 0 1rem;
+  margin: 0 0.3rem;
+  height: 100%;
+    }
+
+.buchen_text:hover {
+    color: #FBF3E4;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 150%;
+    font-weight: bold;
+    text-align: center;
+    }
+
+.buchen_box {
+    margin-top: 30px;
+    }
+
+.preise_head  {
+    color: #FBF3E4;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 150%;
+    font-weight: bolder;
+    }
+
+.preismenü {
+   list-style: none;
+    }
+
+.preise {
+    color: #FBF3E4;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 150%;
+    font-weight: lighter;
+    }
+
+
+  .Email_box {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+ margin-left: 550px;
+}
+
+.email_feld {
+  outline: none;
+  border: 2px solid var(--clr-dark);
+  box-shadow: 3px 4px 0px 1px var(--clr-dark);
+  width: 290px;
+  padding: 12px 10px;
+  border-radius: 4px;
+  font-size: 15px;
+}
+
+.Buchungsdetails {
+  width: 700px;
+  margin-left: 350px;
+}
+
+.button {
+  padding: 5px;
+  margin: 30px 550px;
+  width: 300px;
+  font-size: 30px;
+  font-family: 'Courier New', Courier, monospace;
+  background:  #3B0A0A;
+  color: #FBF3E4;
+  font-weight: 800;
+  box-shadow: 5px 5px 0px 0px var(--clr-dark);
+  border: 4px solid var(--clr-dark);
+}
+
+.button:hover {
+  padding: 5px;
+  margin: 30px 550px;
+  width: 300px;
+  font-size: 30px;
+  font-family: 'Courier New', Courier, monospace;
+  background: #E63322;
+  color: #FBF3E4;
+  font-weight: 800;
+  box-shadow: 5px 5px 0px 0px var(--clr-dark);
+  border: 4px solid var(--clr-dark);
+}
+
+.Rabatt {
+  float: right;
+  height: 400px;
+}
+
+.abgeschickt_box {
+  margin-left: 350px;
+}
+
+.backbutton {
+    color: #FBF3E4;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 150%;
+    font-weight: lighter;
+    margin-left: 350px;
+    text-decoration: none;
+    }
+
+.backbutton:hover {
+    color: #FBF3E4;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 150%;
+    font-weight: bolder;
+    margin-left: 350px;
+    text-decoration: none;
+    }
+
+  .story {
+    height: 1000px;
+    width: flex;
+    background-color: #FBF3E4;
+    margin-top: 5px;
+    margin-color:#3B0A0A;
+    }
+
+.fotogalerie {
+    height: 2100px;
+    margin-bottom: 30px;
+   }
+
+.img_left {
+    height: 470px;
+    float: left;
+    margin: 20px 20px;
+   }
+
+.img_right {
+    height: 470px;
+    max-width: 700px;
+    float: right;
+    margin: 20px 20px;
+   }
+
+  .banner {
+    height: 520px;
+    float: left;
+   }
+
+.bildbeschreibung  {
+    color: #FBF3E4;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 150%;
+    font-weight: lighter;
+    text-align: end;
+    }
+
+.band_img2 {
+    height: 450px;
+    float: right;
+    margin-right: 150px;
+   }
+
+   .termine {
+    height: 600px;
+    width: flex;
+    background-color: #FBF3E4;
+    margin-top: 60px;
+    margin-color:#3B0A0A;
+    }
+
+
+  .terminüberschrift {
+    color: #3B0A0A;
+font-family:'Courier New', Courier, monospace;
+  font-size: 170%;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.termin_textbox {
+    height: 50px;
+    width: flex;
+    padding-top: 20px;
+    }
+
+.map_box {
+    align: top;
+    }
+
+.head_description2 {
+    color: #3B0A0A;
+font-family:'Courier New', Courier, monospace;
+  font-size: 800%;
+  margin-top: 50px;
+  text-align: left;
+    }
+
+.text_description2 {
+    color: #3B0A0A;
+font-family:'Courier New', Courier, monospace;
+  font-size: 150%;
+  font-weight: lighter;
+  text-align: left;
+}
+
+.description2 {
+    height: 400px;
+    width: flex;
+    background-color: #FBF3E4;
+    margin-top: 50px;
+    margin-color:#3B0A0A;
+    padding-left: 30px;
+    }
+
+.anfahrt {
+    height: 850px;
+    width: flex;
+    margin-top: 50px;
+    margin-color:#3B0A0A;
+    padding-left: 30px;
+    }
+
+.footer {
+    height: 55px;
+    width: flex;
+    background-color: #FBF3E4;
+    margin-top: 50px;
+    margin-color:#3B0A0A;
+    }
+
+    .footer_text {
+    color: #3B0A0A;
+font-family:'Courier New', Courier, monospace;
+  font-size: 110%;
+  font-weight: lighter;
+  text-decoration: none;
+}
+
+  .footer_text:hover {
+    color: #3B0A0A;
+font-family:'Courier New', Courier, monospace;
+  font-size: 110%;
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+.footer_textbox  {
+    height: 55px;
+    width: flex;
+    padding-bottom: 5px;
+    padding-top: 5px;
+   padding-left: 700px;
+    }
+
+.head_404 {
+    color: #FBF3E4;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 900%;
+    margin-bottom: 30px;
+    text-align: center;
+    }
+
+.text_404 {
+    color: #FBF3E4;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 200%;
+    font-weight: lighter;
+    text-align: center;
+    text-decoration: none;
+    }
+
+.link_404 {
+    color: #FBF3E4;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 200%;
+    font-weight: lighter;
+    text-align: center;
+    text-decoration: none;
+    }
+
+.link_404:hover {
+    color: #FBF3E4;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 210%;
+    font-weight: bolder;
+    text-align: center;
+    text-decoration: none;
+    }
